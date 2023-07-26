@@ -30,7 +30,7 @@ function displayUpiQRCode() {
     // to generate the QR code and then display it in the '#upiQRCode' div
 
     // For demonstration purposes, let's just display a placeholder image
-    var qrCodeImageSrc = "qr-code.png" ;
+    var qrCodeImageSrc = "/qr-code.png" ;
     $("#upiQRCode").html(`<img src="${qrCodeImageSrc}" alt="UPI QR Code">`);
 }
 
